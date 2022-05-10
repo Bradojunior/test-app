@@ -1,7 +1,10 @@
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 import  './Home.css';
 const Home = () =>{
     return(
         <div className="home">
+            <Navbar/>
             <div className="picture">
             <div className="image">
                 <img src="images/people.png" alt="" />
@@ -24,7 +27,7 @@ const Home = () =>{
                     <input type="text" name='text' placeholder='Profile Code' />
                 </div>
             </div>
-
+            <Footer/>
         </div>
     )
 }

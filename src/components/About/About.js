@@ -1,7 +1,10 @@
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 import './About.css';
 const About = () => {
     return ( 
     <div className="about">
+        <Navbar/>
         <div className="comment">
         <div className="comment1">
             <h1>Quizzy comes with amazing</h1>
@@ -41,6 +44,7 @@ const About = () => {
             <div className="three"><p> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br></br> Necessitatibus magnam qui totam natus. Eum porro <br></br>hic temporibus ut laudantium, sunt recusandae nam <br></br>incidunt rem aperiam, tempora, repellat commodi<br></br> inventore quia!</p></div>
         </div>
     </div>
+    <Footer/>
     </div>
    
      );

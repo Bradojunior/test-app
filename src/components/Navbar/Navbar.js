@@ -15,7 +15,7 @@ const Navbar = () => {
                 < IoMdContact style={style}/>
             </div>
         <div className="button">
-            <button>Sign In</button>
+            <Link to="/Signin"><button>Sign In</button></Link>
             
         </div>
         </nav>
