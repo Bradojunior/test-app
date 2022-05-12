@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    color: aliceblue;
+    background-size: cover;
+}
+.sidebar{
+    position: relative;
+    width: 35vw;
+    height:100vh;
+    background-size: cover;
+    margin: 0;
+    background-color:rgb(6, 1, 22);
+    color: aliceblue;
+    width: 60%;
+    
+}
+.top img{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.write{
+    /* text-align: center; */
+    padding-top: 6rem;
+    justify-content: center;
+    margin-left: 10rem;
+}
+.profile{
+    margin-bottom: 1.5rem;
+}
+.organ{
+    margin-bottom: 1.5rem;
+}
+.buttom{
+    text-align: center;
+    padding-top: 17rem;
+}
+.first{
+    display: block;
+}
+.mainsub{
+    background-color:#042A37;
+    width: 100%;
+    height: 100vh;
+    /* text-align: center; */
+    
+}
+.third{
+    display: flex;
+    column-gap: 2rem;
+    padding-top: 5rem;
+    /* margin-left: 12rem; */
+    justify-content: center;
+    
+}
+.third input{
+    justify-content: center;
+}
+.code{
+    padding-top: .5rem;
+    margin-left: 8.5rem;
+    justify-content: center;
+ 
+}
+.button{
+    /* padding-top:3rem ; */
+    /* padding-bottom: 1rem; */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    column-gap: 4rem;
+    border: none;
+    /* width: 2rem; */
+}
+.mainsub input{
+   height:3rem ;
+    /* border: none; */
+    width: 17rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+
+.btn1 button{
+    border: none;
+    padding: .7rem 3rem;
+    color: black;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.btn2 button{
+    border: none;
+    padding: .7rem 3rem;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: blueviolet;
+}

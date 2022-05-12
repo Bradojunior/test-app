@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 import './Signin.css'
 const Home= () => {
     return ( 
@@ -6,7 +7,7 @@ const Home= () => {
           <div className="first-part">
              <img src="images/logo.png"alt='' />
              <p1>Dont have an account?</p1>
-             <p2>sign up!</p2>
+             <Link to="/Signup"><p2>sign up!</p2></Link>
           </div>
            <div className="second-part">
               <h1>Welcome</h1>
@@ -16,13 +17,23 @@ const Home= () => {
            <div className="third-part">
            <form>
              <div className='email'>
-              <input type="email" name="email"placeholder="email" /><br></br>
+              <input type="email" name="email"placeholder="Email" /><br></br>
               </div>
-              <input type="password" name="password"placeholder="password"/>
+              <div className="pass">
+              <input type="password" name="password"placeholder="Password"/>
+              </div>
             </form>
            </div>
+           <div className="message">
+            <div className="remember">
+               <p>Remember me</p>
+            </div>
+            <div className="recover">
+               <p>Recover password</p>
+            </div>
+           </div>
            <div className='botton'>
-               <botton>log in</botton>
+               <Link to="/LandingPage"><button>Log In</button></Link>
            </div>
 
       </div>

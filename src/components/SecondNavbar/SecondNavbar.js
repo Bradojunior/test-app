@@ -1,8 +1,6 @@
-
-import "./Navbar.css";
 import {IoMdContact} from "react-icons/io";
 import {Link} from "react-router-dom";
-const Navbar = () => {
+const SecondNavbar = () => {
     const style = {color:"blue", fontSize:"2.5rem",marginRight:"1.5rem"}
     return (
         <nav className="navbar">
@@ -14,13 +12,16 @@ const Navbar = () => {
         <div className="licon">
                 < IoMdContact style={style}/>
             </div>
-        <div className="button">
-            <Link to="/Signin"><button>Sign In</button></Link>
-            
-        </div>
+            <select name="Username" id="dropdown">
+                <option value="Username">Username</option>
+                <option value="Username">Dashboard</option>
+                <option value="Username">Take Quiz</option>
+                <option value="Username">Test Yourself</option>
+                <option value="Username">Logout!</option>
+            </select>
         </nav>
         
     );
 }
  
-export default Navbar;
+export default SecondNavbar;

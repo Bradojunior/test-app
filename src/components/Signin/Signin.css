@@ -1,44 +1,67 @@
 .general{
     display:flex;
     background-size: cover;
+    height: 100vh;
 }
 .div1{
     background-color: #042A37;
     color: white;
     background-size: cover;
-    width: 600px; 
-    height: 800px;
+    width: 100%; 
+    height: 100vh;
 }
 .first-part {
     display:flex; 
     margin-top: 50px;
 }
 .first-part p1{
-    margin-left:310px;
+    margin-left:20rem;
+   
 
 
 }
 .first-part p2{
     margin-left: 10px;
     color: rgb(14, 18, 211);
+
+}
+.first-part p2:hover{
+   font-size: 1.1rem;
+    cursor: pointer;
+    
+
+}
+.first-part img{
+    margin-left: 3rem;
 }
 .second-part{
     text-align: center;
 }
 .second-part h1{
-    margin-top: 80px;
-    
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.second-part p{
+    margin-top: .8rem;
 }
 .third-part{
     justify-content: center;
+    text-align: center;
 
 }
-.third-part form input{
-    padding: 15px 30px 15px 30px;
-    width: 300px;
-
-
-
+.email input{
+    background-color: rgb(233, 215, 215);
+    border: none;
+    padding: 1.3rem 8.5rem;
+    border-radius: 7px;
+    margin-top: 2.5rem;
+}
+.pass input{
+    background-color: rgb(218, 206, 206);
+    border: none;
+    padding: 1.3rem 8.5rem;
+    border-radius: 7px;
+    margin-top: 2.5rem;
 }
 .email{
     margin-button: 2rem;
@@ -53,8 +76,8 @@
     background-color: rgb(10, 10, 49); 
     color: beige;
     background-size: cover;
-    width: 750px; 
-    height: 800px;
+    width: 100%; 
+    height: 100vh;
     /* text-align: center;  */
     /* justify-content: center; */
     /* align-content: center; */
@@ -63,7 +86,7 @@
 .div2 img{
     justify-content: center;
     width: 500px;
-    margin-top: 155px;
+    margin-top: 5rem;
     margin-bottom: -45px;
 
 } 
@@ -78,3 +101,23 @@
 .div2 p{
     margin-left: 90px;
 }  
+.message{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 13rem;
+}
+.botton button{
+    background-color: whitesmoke;
+    border: none;
+    padding: 1.3rem 12.7rem;
+    border-radius: 7px;
+    margin-top: 2.5rem;
+    margin-left: 7.5rem;
+    font-weight: bolder;
+}
+.botton button:hover{
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
